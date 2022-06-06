@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{background-color:bisque}
+.title-2{display: flex;}
+.text-container{font-size: 30px;}
+.title-2 img{
+    width: 100px;
+    height: 300px;
+}
+.nav-menu{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    position:left;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color:gray;
+margin-right: 40px;}
+.nav-menu ul li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+    text-transform: none;
+}
+.nav-menu ul a{
+    text-decoration: none;}
+.title-2 img{
+    border-radius:50%;
+    height: 80px;
+}
+.background-text{
+    padding-top:  200px;
+    background-image: url(/image/background.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-text h4{
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    text-align: center;
+}
+.All{display:flex;
+    margin: 100px;
+    margin-left: 20px;}
+.other-002{
+    display: flex;
+    background-color:green;
+    color: black;}
+.other-002 img{
+    border-radius: 50%;
+    height: 300px;
+    width: 200px;}
+.text-002{
+    display: flex;
+    margin-right: 30px;
+}
+.other-003{
+    display: flex;
+    background-color: black;}
+.other-003 img{
+    border-radius: 50%;
+    height: 350px;
+    width:  250px;}
+    .text-003{color:white;}
+.other-002, .other-003{
+    margin-left: 20px;
+    margin-right: 0px;
+    padding-right: 40px;
+}
+.other-002 p, .other-003 p{
+    font-size:  30px;
+    font-family: 'Times New Roman', Times, serif;}
+    .do{display: flex;}
+    .go{margin-left: 200px;}
+    .mine{margin-left: 200px;}
+    .hope{margin-left: 300px;}
+.tab{margin-left: 500px;
+    margin-bottom: 100px;}
+      .footer-container{
+        background-color:black;
+        font-size: 50px;
+        height: 800px;
+        margin-left: 0px;
+        font-family:fantasy;
+    color:blue;}
+        .footer-container ul{margin: 10px;}
+    .footer-container ul a{
+        text-decoration: none;
+        color: white;}
+    .footer-container ul li{
+        list-style-type: none;}
+.footer-container p{
+    padding-left: 100px;
+    padding-bottom: 100px;
+    color:aquamarine;
+}
+#button-send{
+    background-color:blueviolet;
+    border-radius:50%;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 1000px;
+    transition-duration: 0.9s;
+    cursor: pointer;
+    width: 130px;
+    height: 100px;
+    border-color:lightseagreen;
+    border-width: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box 20px;
+    transition: ease-in-out;}
+#button-send:hover{
+    background-color:black;
+    color:white;
+}
